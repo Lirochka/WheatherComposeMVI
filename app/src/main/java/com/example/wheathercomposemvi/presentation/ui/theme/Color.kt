@@ -1,4 +1,4 @@
-package com.example.wheathercomposemvi.ui.theme
+package com.example.wheathercomposemvi.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

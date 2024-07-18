@@ -1,4 +1,4 @@
-package com.example.wheathercomposemvi.ui.theme
+package com.example.wheathercomposemvi.presentation.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
