@@ -16,8 +16,8 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         (applicationContext as WeatherApp).applicationComponent.inject(this)
-
         super.onCreate(savedInstanceState)
+
         setContent {
             RootContent(component = rootComponentFactory.create(defaultComponentContext()))
         }

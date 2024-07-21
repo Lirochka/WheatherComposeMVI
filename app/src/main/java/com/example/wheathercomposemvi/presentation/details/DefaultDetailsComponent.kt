@@ -42,7 +42,7 @@ class DefaultDetailsComponent @AssistedInject constructor(
         store.accept(DetailsStore.Intent.ClickBack)
     }
 
-    override fun onClickFavouritesStatus() {
+    override fun onClickChangeFavouriteStatus() {
         store.accept(DetailsStore.Intent.ClickChangeFavouriteStatus)
     }
 
